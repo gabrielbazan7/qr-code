@@ -1,7 +1,7 @@
 {
-  "name": "@bitpay/qr-code",
-  "version": "0.0.1",
-  "description": "BitPay's QR Code Web Component",
+  "name": "qr-code-component-ng",
+  "version": "0.0.4",
+  "description": "QR Code Web Component",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
   "types": "dist/types/components.d.ts",
@@ -19,11 +19,11 @@
     "test.watch": "jest --watch"
   },
   "dependencies": {
-    "just-animate": "^2.5.0",
-    "qrcode-generator": "^1.4.0"
+    "just-animate": "2.5.0",
+    "qrcode-generator": "1.4.0"
   },
   "devDependencies": {
-    "@stencil/core": "^0.10.2",
+    "@stencil/core": "^0.14.2",
     "@types/jest": "^21.1.1",
     "jest": "^21.2.1"
   },
